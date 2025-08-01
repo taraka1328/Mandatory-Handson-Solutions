@@ -1,0 +1,51 @@
+.app-container {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 1rem;
+  font-family: system-ui, sans-serif;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #f9f9f9;
+}
+
+h1 {
+  text-align: center;
+}
+
+.register-form .field {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.register-form label {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.register-form input {
+  padding: 8px;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.register-form button {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.register-form button:hover {
+  background-color: #1e40af;
+}
+
+.error {
+  color: red;
+  font-size: 0.85rem;
+  margin-top: 4px;
+}
